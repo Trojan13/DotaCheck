@@ -3,7 +3,7 @@ const config = require('config');
 const Bottleneck = require("bottleneck");
 const heroes = require('./heroes.json').heroes;
 var limiter = new Bottleneck({
-    minTime: 333 // pick a value that makes sense for your use case
+    minTime: 333 
 });
 
 //var api_key = config.get("Bitskins.API_KEY");
